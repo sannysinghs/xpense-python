@@ -1,5 +1,5 @@
 card_trans_regx = "\d{2}\s\w{3}\s\d{4}\s\d{7}" #24 FEB 5637 5515323 (card payment)
-date_pattern = "\d{2}\s[A-Z]{3}" #24 MAR
+date_pattern = "\d{2}\s[A-Za-z]{3}" #24 MAR
 paynow_trans = "\d{2}\s\w{3}\sPAYNOW-FAST" # paynow payment
 credit_trans = "SG\d*\.\d{2}" # withdraw/credit amount with SG prefix
 floating_number_prefix_space = "\s\d*\,*\d*\.\d{2}" # total balance 
